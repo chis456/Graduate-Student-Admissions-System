@@ -1,0 +1,47 @@
+ensc 251 project documentation
+fall 2022
+
+Part 1: Update to singly linked list based system (12 marks)
+1) [3 marks] Singly linked
+--Chris did 1
+--Tony did 1
+--Nick did 1
+2) [6.5 marks] Search, Create, delete
+--Chris did 1
+--Tony did 1
+--Nick did 4.5
+3) [2.5 marks] Merge
+--Chris did 1.5 marks
+--Tony did 1 mark
+
+Part 2: More robust error checking (3 marks)
+--Tony did 1.5
+--Chris did 0.5
+--Nick did 1
+
+Part 3: Unit Test (3.5 marks, each item 0.5 mark)
+--Chris did 1.5 mark
+--Tony did 2 marks
+
+Part 4: Algorithm Complexity Analysis (1.5 marks)
+--Jose did this
+
+Part 5: Your own innovation (5 marks)
+--Tony did 1 mark, doubly linked
+--Jose did 1 mark, average cgpa of all domestic/international students
+--Nick did 1 mark, compare students
+--Chris did 2 mark, print all detailed information in merged list, added to compare
+
+Part 6: Slides presentation (5 marks)
+--Jose did this
+
+Insert Function:        O(n) 
+Search Function:       O(n)
+Delete Function:       O(n)
+Merge Function:       O(n^2)
+
+TOTALS:
+Tony: 1 + 1 + 1 + 1.5 + 2 + 1      = 7.5
+Jose: 1.5 + 1 + 5                  = 7.5
+Nick: 1 + 4.5 + 1 + 1              = 7.5
+Chris: 1 + 1 + 1.5 + 0.5 + 1.5 + 2 = 7.5

@@ -1,0 +1,22 @@
+#compile and link the application
+all: test
+
+#run the application
+run: test
+	./test
+
+#link test.o and student.o to executable test
+test: test.o student.o
+	g++ -g -o test test.o student.o
+
+#compile the test.cpp to test.o
+test.o: test.cpp student.hpp
+	g++ -g -c test.cpp
+
+#compile the student.cpp to student.o
+student.o: student.cpp student.hpp
+	g++ -g -c student.cpp
+
+#remove built files
+clean:
+	rm -rf test test.o student.o *~
